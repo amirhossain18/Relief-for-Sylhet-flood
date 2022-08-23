@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik Dirt', cursive;
+font-family: 'Rubik Iso', cursive;
+font-family: 'Titillium Web', sans-serif;
+}
+
+
+.main-header{
+    text-align: center;
+    margin-top:0;
+    background-image: url(images/main-cover.jpeg);
+   background-repeat:no-repeat;
+   width: 100%;
+   height: 100vh;
+  justify-content: center;
+
+
+
+  
+}
+
+.main-titel  {
+    margin: 0;
+    position: absolute;
+    padding: 15%;
+    font-size: 20px;
+    color: white;
+}
+
+.donet-btn{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 5px;
+  
+
+}
+.main-header h1{
+  font-size: 40px;
+  margin-bottom: 100px;;
+}
+
+-----------------------------------------------
+/* secend section */
+---------------------------------------------------------------
+.donate-today{
+    text-align:center;
+   
+    justify-content: center;
+ 
+  
+}
+
+.donet-text{
+ text-align: center;
+ font-size: 20px;
+}
+.price-rang{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+    
+  
+}
+.price-item{
+    padding: 10px;
+    background-color:gray;
+    margin: auto;
+    width:150px;
+    height:100px;
+    color:white;
+    border-radius: 5px;
+    
+
+ 
+   
+   
+}
+.price-item h2 {
+    display: inline-block;
+    vertical-align: middle;
+   margin:20px; 
+   
+
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(47, 44, 44);
+   text-align: center;
+   justify-content: center;
+   margin-left: 10%;
+   
+  }
+.donet-btn2{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left:43%;
+    margin-bottom: 10px;
+}
+
+-----------------------------------------------
+  ----------------------------------------------------------------
+
+  .donate-packej{
+    display:flex;
+    margin-bottom:50px;
+    background-color: yellow;
+  
+   
+  
+  }
+  .donet-plan{
+   background-image:url(images/donate-charity.jpg);
+ 
+     
+    }
+  .donate-item{
+    background-color: aqua;
+    display:inline-block;
+    width:31%;
+    height: 200px;
+    margin-left: 15px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom:150px;
+    
+    
+    
+  }
+
+  .color-light1{
+    background-color: antiquewhite;
+  }
+  .color-light2{
+    background-color: rgb(129, 116, 147);
+    color: white;
+  }
+  .color-light3{
+    background-color: rgb(76, 145, 114);
+    color: white;
+  }
+
+  .new-brand{
+    height: 400px;
+
+    color: rgb(14, 12, 12);
+  }
+
+
+
+  .email-area{
+    text-align: center;
+   
+  }
+  .email-text{
+    background-color:lightcoral;
+    height: 150px;
+    width: 700px;
+    padding-top: 60px;
+    margin-left: 25%;
+    border-radius: 10px;
+    
+}
+  
+.btn-email{
+    background-color:red;
+    margin:0;
+    border: none;
+    height: 35px;
+    width: 100px;
+    border-top-right-radius:  10px;
+    border-bottom-right-radius:  10px;
+    
+}
+
+.email-text input{
+   margin: -5px;
+   height: 35px;
+   border-top-left-radius:  10px;
+   border-bottom-left-radius: 10px;
+   border: none;
+   width: 200px;
+   text-align: center;
+}
+
+----------------------------------------
+.new-brand{
+    height: 400px;
+    color: rgb(14, 12, 12);
+    text-align: center;
+  }
+
+
+.main-commiti{
+    display:flex;
+    height: 300px;
+}
+
+.commiti-iten{
+    background-color:rgb(220, 220, 220);
+    margin: 2px;
+    padding: 2px;
+    width: 25%;
+    text-align: center;
+}
+
+
+#money{
+    background-image: url(images/money-doner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#advice{
+    background-image: url(images/advice.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#volunteer{
+    background-image: url(images/volunteer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#medicine{
+    background-image: url(images/medicin.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.alin{
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    columns: red;
+    text-align: center;
+}
